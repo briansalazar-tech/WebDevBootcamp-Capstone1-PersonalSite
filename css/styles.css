@@ -1,0 +1,129 @@
+body {
+    background-color: #91C8E4;
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#center_card {
+    background-color: #F6F4EB;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 0px;
+    border: #4682A9 solid 3px;
+    border-radius: 10px;
+    
+}
+
+#header {
+    background-color: #4682A9;
+    background-image: url("../images/clouds.png");
+    color: white;
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#introduction{
+    color: #749BC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills_edu_certs {
+    color: #749BC2;
+    margin: 50px;
+}
+
+#jobs {
+    color: #749BC2;
+    margin: 50px;
+}
+
+#footer {
+    background-color: #4682A9;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+#headshot {
+    display: flex;
+    border-radius: 50%;
+    height: 250px;
+    margin: 50px;
+}
+
+#no_underline {
+    text-decoration-line: none;
+}
+
+.intro_content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.header_text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 4px 4px 8px #4682A9;
+}
+
+.body_headers {
+    color: #4682A9;
+}
+
+.body_text {
+    color: #4682A9;
+}
+
+.footer_text {
+    color: white;
+}
+
+.margin-200 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.margin-75 {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+a {
+    color: #4682A9;
+}
+
+hr {
+    border: #91C8E4 2px dashed;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+h1 {
+    font-family: 'Salsa', cursive;
+    font-size: 5rem;
+    -webkit-text-stroke: 1px #4682A9;
+    text-shadow: 4px 4px 8px #4682A9;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration-line: underline;
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
